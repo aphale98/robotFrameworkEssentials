@@ -1,5 +1,5 @@
 *** Settings ***
-Library    custom_lib
+Library    ./pythonLibs/custom_lib.py
 
 *** Test Cases ***
 Calculate Square Test
