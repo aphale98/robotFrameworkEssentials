@@ -1,5 +1,5 @@
 *** Settings ***
-Library    ./pythonLibs/custum_with_args    10.0.0.1    8080
+Library    ./pythonLibs/custom_with_args    ${10.0.0.1}   8080
 Library    ./pythonLibs/message   ${ENVIRONMENT}
 
 *** Variables ***
@@ -17,3 +17,6 @@ Send Message
 
 Do Something
     message.Do Something
+
+
+
