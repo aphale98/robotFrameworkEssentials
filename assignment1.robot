@@ -46,7 +46,7 @@ SearchFlights
     ${result} =  Evaluate  ${lowest['day']} + 7
 
 
-#     Step 3: Select Return date as 7 days from departure date
+    # Step 3: Select Return date as 7 days from departure date
     Click Element    //input[@placeholder='Return']
     Click Element    //div[@class='rd-container flight-ret-cal extra-bottom rd-container-attachment']/descendant::div[@class='day has-info'][normalize-space()='${result}'][2]
 
