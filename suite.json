@@ -1,0 +1,19 @@
+{
+    "name": "My Test Suite",
+    "tests": [
+        {
+            "name": "Test 1",
+            "steps": [
+                "Log    This is Test 1",
+                "Should Be Equal    ${2 + 2}    4"
+            ]
+        },
+        {
+            "name": "Test 2",
+            "steps": [
+                "Log    This is Test 2",
+                "Should Be Equal    ${3 * 3}    9"
+            ]
+        }
+    ]
+}
